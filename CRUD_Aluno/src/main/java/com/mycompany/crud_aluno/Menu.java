@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 
 
 public class Menu {
-    private ArrayList<Aluno> alunos = new ArrayList<Aluno>(); // Corrija a declaração com a tipagem correta
+    private ArrayList<Aluno> alunos = new ArrayList<Aluno>();
     private int opcao = 0;
 
     public void Processamento() {
