@@ -12,4 +12,8 @@ public class Carrinho {
     public void addItem(ItensCarrinho item) {
         itens.add(item);
     }
+
+    public List<ItensCarrinho> getItens() {
+        return itens;
+    }
 }
